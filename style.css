@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-family: Arial;
+}
+
+#name{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#spidy-img{
+    width: 327px;
+    height: 189px;
+}
+
+.info{
+    /* white-space: pre; */
+    text-align: justify;
+    position: relative;
+    left: 200px;
+}
