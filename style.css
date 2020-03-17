@@ -3,6 +3,10 @@ body{
     font-family: Arial;
 }
 
+ul{
+    list-style: none;
+}
+
 #name{
     color: white;
     background-color: red;
@@ -15,9 +19,21 @@ body{
     height: 189px;
 }
 
-.info{
-    /* white-space: pre; */
-    text-align: justify;
-    position: relative;
-    left: 200px;
+.content{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px rgb(87, 76, 76) , -5px -5px 5px rgb(87, 76, 76) , -5px 5px 5px rgb(87, 76, 76) , 5px -5px 5px rgb(87, 76, 76) ;
+    padding: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#spidy-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.info div{
+    justify-content: left;
+    justify-items: left;
 }
