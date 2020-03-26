@@ -37,3 +37,9 @@ ul{
     justify-content: left;
     justify-items: left;
 }
+
+.powers{
+    position: relative;
+    left: -15px;
+    justify-content: left;
+}
